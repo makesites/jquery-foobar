@@ -30,4 +30,6 @@ html, body {
 	background: #ff0;
 }
 	
-
+.foobar .control.show {
+	background: #f00;
+}
