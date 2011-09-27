@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* Top bar style */
+
+/* this global style makes sure the bar sticks to the edges of the window */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.foobar {
+	position: relative;
+	overflow: visible;
+}
+.foobar .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.foobar .control {
+	position: absolute;
+	overflow: hidden;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	background: #ff0;
+}
+	
+
