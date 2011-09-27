@@ -7,9 +7,8 @@ html, body {
 	padding: 0;
 }
 
-
 .foobar {
-	position: relative;
+	position: absolute;
 	overflow: visible;
 }
 .foobar .content {
