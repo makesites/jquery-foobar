@@ -1,0 +1,8 @@
+{
+	"name": "jquery.foobar",
+	"version": "0.1.0",
+	"main": ["./lib/jquery.foobar.js"],
+	"dependencies": {
+		"jquery": "~1.8.2"
+	}
+}
